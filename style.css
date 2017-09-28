@@ -1,6 +1,79 @@
+/* Google font - Open Sans */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300');
+
+html,
 body {
-  background: #F19495;
-  color: #fff;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+}
+body {
+  background: #FFF;
+  color: rgb(41, 128, 185);
   font-size: 16px;
   font-family: sans-serif;
+}
+
+#intro {
+  background-image: url('images/memphis-colorful.png');
+  background-attachment: fixed;
+  height: 75vh;
+  display: flex;
+  flex-direction: column;
+  -webkit-flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+#intro h1 {
+  font-size: 4em;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  margin: 0;
+}
+#intro p {
+  font-size: 2em;
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+}
+#intro a {
+  margin-top: 4em;
+  display: block;
+  border: 1px solid rgb(46, 204, 113);
+  background: rgba(46, 204, 113, 0.5);
+  color: #FFF;
+  text-decoration: none;
+  padding: 0.75em 1.25em;
+  transition: all 300ms ease-in-out;
+}
+#intro a:hover {
+  background: rgba(46, 204, 113, 0.8);
+}
+
+#info {
+  text-align: center;
+  font-size: 1.25em;
+  line-height: 1.6em;
+  padding: 2em 2em 4em;
+  background: rgb(236, 240, 241);
+}
+
+#info h2 {
+  font-size: 2em;
+  font-weight: 300;
+  margin-bottom: 2em;
+}
+ul {
+  margin: 0 0 4em;
+  list-style-type: none;
+  padding: 0;
+  color: rgb(52, 152, 219);
+}
+ul img {
+  max-width: 300px;
+}
+ul li a {
+  color: rgb(39, 174, 96);
+  text-decoration: none;
 }
